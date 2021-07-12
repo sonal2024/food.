@@ -1,0 +1,24 @@
+<html>
+<head>
+   <title>JavaScript</title>
+</head>
+<body>
+   <div id="tdiv"></div>
+ <script type="text/javascript">
+     var  tweetString = "";
+     var tweets =["hi there","I am Sonal","live n delhi"];
+	 tweets.push("Hello everyone");
+	 var i=0;
+	  while(i < tweets.length)
+	  {
+	    tweetString = tweetString + "<p>"+ tweets[i] +"</p>";
+		i++;
+		}
+		
+	  document.getElementById("tdiv").innerHTML = tweetString;
+		
+
+    </script>
+
+</body>
+</html>

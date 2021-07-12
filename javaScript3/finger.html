@@ -1,0 +1,54 @@
+<html>
+<head>
+   <title>JavaScript</title>
+   <style type="text/css">
+    #content{
+	 margin-top:200px;
+	 margin-left:500px;
+	 border:1px black solid;
+	 height:200px;
+	 width:410px;
+	 background-color:white;
+	}
+     h1{
+	 
+	 margin-left:10px;
+	   }
+	 body{
+	  background-image:url('https://cdn.cdnparenting.com/articles/2019/04/30115929/322295078-H-1024x700.jpg');
+	  background-repeat:no-repeat;
+	  background-size:cover;
+	 }
+	 #magic{
+	 margin-left:30px;
+	 
+	 }
+    </style>
+</head>
+<body> <div id="content">
+    <h1 id="heading"> Guess the numer between 1 to 10</h1>
+	<input type="text" id="magic">
+	<button id="check">Check Guess</button>
+	</div>
+ <script type="text/javascript">
+     
+	 document.getElementById("check").onclick = function(){
+	
+	     var magi = Math.floor((Math.random() * 10) + 1);
+		var y = "yes"
+		 var magie = document.getElementById("magic").value;
+		 
+	    if( magi == magie)
+		  {
+		    alert(" you are right");
+		    }
+		else{
+		  alert(" Noooooo its" + magi );
+		}
+	    }
+		
+
+    </script>
+
+</body>
+</html>

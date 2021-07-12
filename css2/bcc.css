@@ -1,0 +1,173 @@
+<style type="text/css">
+	  #top{
+	   
+		width:1150px;
+		height:40px;
+		margin:0 auto;
+	  }
+	  body{
+	   margin:0;
+	   padding:0;
+	   font-family: Helvetica, Arial,sans-serif;
+	   }
+	   #logo{
+	    margin-top:2px;
+	    width :100px;
+		height:35px;
+		float:left;
+		margin-right:8px;
+		}
+		.topper-section{
+		float:left;
+		border-left:1px #cccccc solid;
+		height:100%;
+		margin-left:20px;
+		}
+		#signin-img{
+		width:40px;
+		margin:6px 15px;
+		float:left;
+		}
+		#signin-text{
+		 font-weight: bold;
+		 font-size:90%;
+		 position:relative;
+		 top:14px;
+		}
+		.top-sec{
+		 float:left;
+		 border-left:1px #cccccc solid;
+		 height:100%;
+		 margin-left:50px;
+		}
+		.hom{
+		  position:relative;
+		  top:14px;
+		  font-weight:bold;
+		  margin-left:15px;
+		}
+		#search{
+		background-color:#cccccc;
+		margin:10px;
+		width:150px;
+		height:25px;
+		font-weight:bold;
+		font-size:100%;
+		}
+		.search1{
+		 width:20px;
+		 height:20px;
+		 float:right;
+		 margin-top:2px;
+		}
+		#second{
+		 height:70px;
+		 widtth:100%;
+		 background-color:#Db0329;
+		 color:white;
+		 
+		}
+		h1{
+		 padding:0;
+		 margin:0;
+		 font-family: Helvetica,Arial,freesans,sans-serif;
+		 
+		  font-weight:normal;
+		 padding-top:10px;
+		 float:left;
+		 
+		}
+		#find-lo-div{
+		 height:22px;
+		 
+		 width:200px;
+		 float:right;
+		 border:1px white solid;
+		 margin-right:22px;
+		 margin-top:20px;
+		}
+		.find{
+		 font-weight:bold;
+		 margin-left:6px;
+		 margin-top:6px;
+		}
+		.loca{
+		 float:right;
+		 width:20px;
+		 height:20px;
+		 margin-top:1px;
+		 
+		}
+		#third{
+		 height:30px;
+		 width:100%;
+		 background-color:#Db0329;
+		 
+		
+		}
+		
+		 #menubar2 a{
+		 color:white;
+		 text-decoration:none;
+		 padding:0 10px;
+		 border-right: 1px solid;
+		 font-size:18px;
+		 position:relative;
+		 top:5px;
+		 
+		 
+}
+        #menubar2 a:hover{
+		 text-decoration:underline;
+        }	
+        .no-border{
+		   border:none !important;
+          }	
+        #main-page{
+		 margin: 0 auto;
+		 background-color:#F1e1f3;
+		
+		 height:400px;
+		 
+        }		
+		#page-content{
+		 float:left;
+		 margin-top:8px;
+		 width:600px;
+		 margin-left:10px;
+		 height:400px;
+		 
+		}
+		#page-content a{
+		 font-size:300%;
+		 text-decoration:none;
+		 font-weight:bold;
+		 color:black;
+		}
+		#page-content a:hover{
+		text-decoration:underline;
+		color:blue;
+		}
+		.queen{
+		 width:650px;
+		 height:350px;
+		 margin-right:8px;
+		 margin-top:8px;
+		}
+		
+		.ppara{
+		 color:#9d9b9d;
+		}
+		.pqueen{
+		 font-size:40%;
+		 font-style:cursive;
+		 }
+		 #photo{
+		 height:400px;
+		 }
+		 
+		 
+		 
+		 
+		
+	</style>

@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Jquery</title>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+       <link href="jquery-ui/jquery-ui.css" rel="stylesheet">
+	   <script src="jquery-ui/jquery-ui.js"></script>
+    <style type="text/css">
+	   body{
+  background: #fff;
+  font-family: sans-serif;
+  padding: 0;
+  margin:0;
+}
+#header{
+  width: 100%;
+  background: #aaa;
+  padding:10px;
+  height:40px;
+}
+#mylogo{
+  width:50px;
+}
+#logo{
+  float:left;
+  font-weight: bold;
+  
+}
+#logo span{
+  font-size:150%;
+  color:white;
+  font-family:cursive;
+}
+#buttonContainer{
+  width:300px;
+  margin: 0 auto;
+}
+.toggleButton{
+  float:left;
+  font-weight:bold;
+  font-size:100%;
+  border: 1px solid gray;
+  padding: 8px;
+  border-right:none;
+}
+#html{
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+#output{
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-right:1px solid grey;
+}
+	</style>
+	</head>
+<body>
+   <div id="header">
+    <div id="logo">
+      <span>S</span>onal's<span>C</span>ode<span>P</span>layer
+    </div>
+    <div id="buttonContainer">
+      <div class="toggleButton" id="html">HTML</div>
+      <div class="toggleButton" id="css">CSS</div>
+      <div class="toggleButton" id="javascript">JavaScript</div>
+      <div class="toggleButton" id="output">Output</div>
+      
+    </div>
+  </div>
+<script type="text/javascript">
+    $(".toggleButton").hover() {
+  $(this).css("background-color","pink");
+}
+</script>
+</body>
+</html>

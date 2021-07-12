@@ -1,0 +1,92 @@
+<html>
+<head>
+  <title> Bounce the ball   </title>
+  <style type="text/css">
+  
+    .bounce{
+	 height:200px;
+	 width:200px;
+	 background-color:red;
+	 opacity:0.5;
+	 border-radius:50%;
+     animation: bounce 0.3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+	}
+    @keyframes bounce {
+  from { transform: translate3d(0px,0px, 0px);     }
+  to   { transform: translate3d(0px, 200px, 0px); }
+}
+ .beat{
+	 height:200px;
+	 width:200px;
+	 background-color:ffffff;
+	 
+	 border-radius:50%;
+	  margin: 5em;
+  animation: .8s infinite beatHeart;
+	 float:right;
+	}
+	@keyframes beatHeart {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.star{
+  height:500px;
+  width:500px;
+  background-image:url("https://i.pinimg.com/originals/c0/f6/45/c0f6453a33f3cfed2934a96202508e45.jpg");
+  position:relative;
+  top:300px;
+  left:200px;
+   animation: .8s infinite twinkel;
+  }
+  	@keyframes twinkel {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+body{
+ background-image:url("https://i.pinimg.com/originals/c0/f6/45/c0f6453a33f3cfed2934a96202508e45.jpg");
+ }
+  
+ 
+  </style>
+</head>
+<body>
+<div class="bounce"></div>
+
+<div class="beat"></div>
+<div class="star"></div\>
+
+
+
+
+</body>
+
+
+</html>
